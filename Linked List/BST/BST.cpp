@@ -29,7 +29,6 @@ void Insert(int x){
                 // since values that are less or equal to the inserting value it will move to its left
                 temp1 = temp1->left;
             }
-
             else{
                 if(temp1->right==NULL){
                     temp1->right = temp;
@@ -79,4 +78,5 @@ int main(){
         int x; cin >> x;
         Search(x);
     }
+    return 0;
 }
