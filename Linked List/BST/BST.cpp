@@ -20,7 +20,6 @@ void Insert(int x){
     node* temp1 = head;
     if(head!=NULL){
         while(temp1!=NULL){
-
             if(x<=temp1->data){
                 if(temp1->left==NULL){
                     temp1->left = temp;
